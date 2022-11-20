@@ -6,9 +6,9 @@ import {
   Route,
 } from "react-router-dom";
 
-import Homepage from "./componets/Homepage";
-import Home from "./componets/Home";
-import Tecnologias from './componets/Tecnologias';
+import Homepage from "../src/componets/Homepage.jsx";
+import Home from "../componets/Home.jsx";
+import Tecnologias from '../componets/Tecnologias.jsx';
 
 
 const router = createBrowserRouter([
@@ -24,10 +24,6 @@ const router = createBrowserRouter([
         path: "tecnologias",
         element: <Tecnologias />,
       },
-      // {
-      //   path: "portfolio",
-      //   element: <Portfólio />,
-      // }
     ]
   },
 ]);

@@ -13,7 +13,6 @@ export default function Home() {
                             className='information-img'
                             boxSize='300px'
                             src='../public/avatar.jpeg'
-                            alt='Foto de Maria Eduarda Souto'
                         />
                         <div className='information-text'>
                             <p className="information-title">Maria Eduarda Souto</p>
