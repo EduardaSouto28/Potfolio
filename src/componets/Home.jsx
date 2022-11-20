@@ -12,7 +12,7 @@ export default function Home() {
                         <Image
                             className='information-img'
                             boxSize='300px'
-                            src='../public/avatar.jpeg'
+                            src='./src/img/avatar.jpeg'
                         />
                         <div className='information-text'>
                             <p className="information-title">Maria Eduarda Souto</p>
