@@ -1,6 +1,7 @@
 import { ChakraProvider } from '@chakra-ui/react'
 import { Image } from '@chakra-ui/react'
 import '../Styles/Home.css'
+import foto from '../img/avatar.jpeg'
 
 export default function Home() {
     return (
@@ -12,7 +13,7 @@ export default function Home() {
                         <Image
                             className='information-img'
                             boxSize='300px'
-                            src='./src/img/avatar.jpeg'
+                            src={foto}
                         />
                         <div className='information-text'>
                             <p className="information-title">Maria Eduarda Souto</p>
