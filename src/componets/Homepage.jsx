@@ -2,6 +2,7 @@ import { ChakraProvider } from '@chakra-ui/react'
 import { Outlet } from "react-router-dom";
 import '../Styles/HomePage.css'
 import { darkMode } from "../data/darkMode";
+import logoDark from '../img/logo-dark.png'
 
 
 export default function Homepage() {
@@ -40,7 +41,7 @@ export default function Homepage() {
                             </li>
                         </ul>
                         <button onClick={mode}>
-                            <img src="../public/logo-dark.png" alt="" className='homepage__nav-img' />
+                            <img src={logoDark} className='homepage__nav-img' />
                         </button>
                     </div>
 

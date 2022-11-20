@@ -1,26 +1,32 @@
 import '../Styles/Tecnologias.css'
+import logoHtml from '../img/logo-html.png'
+import logoCSS from '../img/logo-css.png'
+import logoJs from '../img/logo-js.png'
+import logoVue from '../img/logo-vue.png'
+import logoReact from '../img/logo-react.png'
+import logoGit from '../img/logo-git.png'
 
 export default function Tecnologias() {
     return (
         <>
             <ul className='list'>
                 <li className='list-itens'>
-                    <img src="../public/logo-html.png" className='list-itens-img'></img>
+                    <img src={logoHtml} className='list-itens-img'></img>
                 </li>
                 <li className='list-itens' >
-                    <img src="../public/logo-css.png" className='list-itens-img'></img>
+                    <img src={logoCSS} className='list-itens-img'></img>
                 </li>
                 <li className='list-itens' >
-                    <img src="../public/logo-js.png" className='list-itens-img'></img>
+                    <img src={logoJs} className='list-itens-img'></img>
                 </li>
                 <li className='list-itens' >
-                    <img src="../public/logo-vue.png" className='list-itens-img'></img>
+                    <img src={logoVue} className='list-itens-img'></img>
                 </li>
                 <li className='list-itens' >
-                    <img src="../public/logo-react.png" className='list-itens-img'></img>
+                    <img src={logoReact} className='list-itens-img'></img>
                 </li>
                 <li className='list-itens' >
-                    <img src="../public/logo-git.png" className='list-itens-img'></img>
+                    <img src={logoGit} className='list-itens-img'></img>
                 </li>
             </ul>
 

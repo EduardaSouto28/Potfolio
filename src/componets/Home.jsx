@@ -2,6 +2,9 @@ import { ChakraProvider } from '@chakra-ui/react'
 import { Image } from '@chakra-ui/react'
 import '../Styles/Home.css'
 import foto from '../img/avatar.jpeg'
+import logoGithub from '../img/logo-github.png'
+import logoInsta from '../img/logo-insta.png'
+import logoLinkedin from '../img/logo-linkedin.png'
 
 export default function Home() {
     return (
@@ -22,17 +25,17 @@ export default function Home() {
                         <ul className="information-list">
                             <li>
                                 <a href="https://github.com/EduardaSouto28" target="_blank">
-                                    <img src="../public/logo-github.png" alt="Logo do Github" className='information-list-img' />
+                                    <img src={logoGithub} alt="Logo do Github" className='information-list-img' />
                                 </a>
                             </li>
                             <li>
                                 <a href="https://www.instagram.com/eduarda2823/" target="_blank">
-                                    <img src="../public/logo-insta.png" alt="Logo do instagram" className='information-list-img' />
+                                        <img src={logoInsta} alt="Logo do instagram" className='information-list-img' />
                                 </a>
                             </li>
                             <li>
                                 <a href="https://www.linkedin.com/in/eduarda-souto-b975b3231/" target="_blank">
-                                    <img src="../public/logo-linkedin.png" alt="Logo do linkedin" className='information-list-img' />
+                                    <img src={logoLinkedin} alt="Logo do linkedin" className='information-list-img' />
                                 </a>
                             </li>
                         </ul>
