@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@200;400;600&display=swap');
+
+* {
+  font-family: 'Sono', sans-serif;
+}
+
+.homepage-light {
+  background-color: #160027;
+  height: 100vh;
+  color:#A6A6A6;
+}
+.homepage__nav-light {
+  display: flex;
+  gap: 3em;
+  justify-content: center;
+  background-color:  #261534;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.163);
+  padding: 2em;
+  list-style: none;
+}
+
+
+
+.homepage-dark {
+  background-color: #0c0c0c;
+  height: 100vh;
+  color:#A6A6A6;
+}
+
+.homepage__nav-dark {
+  display: flex;
+  gap: 3em;
+  justify-content: center;
+  background-color:  #262427;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.163);
+  padding: 2em;
+  list-style: none;
+}
+
+
+
+
+.homepage__nav-list {
+  display: flex;
+  gap: 3em;
+  justify-content: center;
+  list-style: none;
+}
+
+.homepage__nav-itens {
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.homepage__nav-img {
+  width: 15px;
+  align-self: center;
+}

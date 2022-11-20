@@ -1,0 +1,27 @@
+.list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1em;
+    justify-content: center;
+    align-items: center;
+    margin: 2em 12em;
+    height: 80vh;
+}
+
+.list-itens {
+    width: 210px;
+    list-style: none;
+    justify-self: center;
+    border: solid 1px rgba(190, 190, 190, 0.219);
+    padding: 2em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+    text-align: center;
+}
+
+.list-itens:hover {
+    box-shadow: 5px 5px 15px black;
+    transform: scale(1.05);
+}
+

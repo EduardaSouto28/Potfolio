@@ -1,0 +1,50 @@
+.information {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+        'img name'
+        'img redes';
+    align-items: center;
+    margin: 1em 12em;
+    height: 80vh;
+}
+
+.information-img {
+    grid-area: img;
+    justify-self: center;
+    border-radius: 45px 10px;
+}
+
+.information-text {
+    align-self: flex-end;
+    padding-bottom: 3em;
+}
+
+.information-title {
+    font-size: 45px;
+    font-weight: 400;
+}
+
+.information-subtitle {
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 100;
+    margin-top: -5px;
+}
+
+.information-list {
+    display: flex;
+    gap: 2em;
+    align-self: flex-start;
+}
+
+.information-list li {
+    list-style: none;
+}
+
+.information-list-img {
+    width: 60px;
+    padding: 0.5em;
+    border-radius: 10px;
+    justify-self: flex-start;
+}
