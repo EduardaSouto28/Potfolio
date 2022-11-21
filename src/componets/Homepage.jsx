@@ -3,6 +3,7 @@ import { Outlet } from "react-router-dom";
 import '../Styles/HomePage.css'
 import { darkMode } from "../data/darkMode";
 import logoDark from '../img/logo-dark.png'
+import { Link } from 'react-router-dom';
 
 
 export default function Homepage() {
@@ -28,16 +29,16 @@ export default function Homepage() {
                     <div className={classNav}>
                         <ul className='homepage__nav-list'>
                             <li>
-                                <a className='homepage__nav-itens' href={`/`}> Início </a>
+                                <Link to={'/'} className='homepage__nav-itens'> Início </Link>
                             </li>
                             <li>
-                                <a className='homepage__nav-itens' href={`Tecnologias`}> Tecnologias </a>
+                                <Link to={'Tecnologias'} className='homepage__nav-itens'> Tecnologias </Link>
                             </li>
                             <li>
-                                <a className='homepage__nav-itens' href={`potfolio`}> Portfólio </a>
+                                <Link to={'potfolio'} className='homepage__nav-itens'> Portfólio </Link>
                             </li>
                             <li>
-                                <a className='homepage__nav-itens' href={`hobbies`}> Hobbies </a>
+                                <Link to={'hobbies'} className='homepage__nav-itens'> Hobbies </Link>
                             </li>
                         </ul>
                         <button onClick={mode}>
