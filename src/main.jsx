@@ -9,19 +9,21 @@ import {
 import Homepage from "./componets/Homepage.jsx";
 import Home from "./componets/Home.jsx";
 import Tecnologias from './componets/Tecnologias.jsx';
+import ErrorPage from "./componets/Errorpage.jsx";
 
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Homepage />,
+    errorElement: <ErrorPage />,
     children: [
       {
         path: "/",
         element: <Home />,
       },
       {
-        path: "tecnologias",
+        path: "Tecnologias",
         element: <Tecnologias />,
       },
     ]

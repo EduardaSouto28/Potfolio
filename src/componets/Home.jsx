@@ -30,7 +30,7 @@ export default function Home() {
                             </li>
                             <li>
                                 <a href="https://www.instagram.com/eduarda2823/" target="_blank">
-                                        <img src={logoInsta} alt="Logo do instagram" className='information-list-img' />
+                                    <img src={logoInsta} alt="Logo do instagram" className='information-list-img' />
                                 </a>
                             </li>
                             <li>

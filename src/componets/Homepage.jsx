@@ -7,7 +7,7 @@ import logoDark from '../img/logo-dark.png'
 
 export default function Homepage() {
 
-    function mode () {
+    function mode() {
         if (classHome === "homepage-dark") {
             light()
         } else if (classHome === "homepage-light") {
@@ -31,7 +31,7 @@ export default function Homepage() {
                                 <a className='homepage__nav-itens' href={`/`}> Início </a>
                             </li>
                             <li>
-                                <a className='homepage__nav-itens' href={`tecnologias`}> Tecnologias </a>
+                                <a className='homepage__nav-itens' href={`Tecnologias`}> Tecnologias </a>
                             </li>
                             <li>
                                 <a className='homepage__nav-itens' href={`potfolio`}> Portfólio </a>
